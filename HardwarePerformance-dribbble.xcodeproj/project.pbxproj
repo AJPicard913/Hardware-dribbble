@@ -15,6 +15,14 @@
 		090D9D0224EFFBE600FD9F90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D9CD724EFFBE500FD9F90 /* ContentView.swift */; };
 		090D9D0324EFFBE600FD9F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090D9CD824EFFBE500FD9F90 /* Assets.xcassets */; };
 		090D9D0424EFFBE600FD9F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090D9CD824EFFBE500FD9F90 /* Assets.xcassets */; };
+		090D9D1424EFFD3800FD9F90 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D9D1324EFFD3800FD9F90 /* Header.swift */; };
+		090D9D1524EFFD3800FD9F90 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D9D1324EFFD3800FD9F90 /* Header.swift */; };
+		090D9D1724EFFDF900FD9F90 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D9D1624EFFDF900FD9F90 /* UserInfo.swift */; };
+		090D9D1824EFFDF900FD9F90 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D9D1624EFFDF900FD9F90 /* UserInfo.swift */; };
+		090D9D1A24EFFFAC00FD9F90 /* UserWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D9D1924EFFFAC00FD9F90 /* UserWork.swift */; };
+		090D9D1B24EFFFAC00FD9F90 /* UserWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D9D1924EFFFAC00FD9F90 /* UserWork.swift */; };
+		090D9D1D24F000C600FD9F90 /* BottomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D9D1C24F000C600FD9F90 /* BottomCard.swift */; };
+		090D9D1E24F000C600FD9F90 /* BottomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D9D1C24F000C600FD9F90 /* BottomCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,10 @@
 		090D9CF824EFFBE600FD9F90 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		090D9CFC24EFFBE600FD9F90 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		090D9CFE24EFFBE600FD9F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		090D9D1324EFFD3800FD9F90 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		090D9D1624EFFDF900FD9F90 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		090D9D1924EFFFAC00FD9F90 /* UserWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserWork.swift; sourceTree = "<group>"; };
+		090D9D1C24F000C600FD9F90 /* BottomCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,10 @@
 			children = (
 				090D9CD624EFFBE500FD9F90 /* HardwarePerformance_dribbbleApp.swift */,
 				090D9CD724EFFBE500FD9F90 /* ContentView.swift */,
+				090D9D1C24F000C600FD9F90 /* BottomCard.swift */,
+				090D9D1324EFFD3800FD9F90 /* Header.swift */,
+				090D9D1624EFFDF900FD9F90 /* UserInfo.swift */,
+				090D9D1924EFFFAC00FD9F90 /* UserWork.swift */,
 				090D9CD824EFFBE500FD9F90 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -308,7 +324,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				090D9D1724EFFDF900FD9F90 /* UserInfo.swift in Sources */,
+				090D9D1A24EFFFAC00FD9F90 /* UserWork.swift in Sources */,
+				090D9D1D24F000C600FD9F90 /* BottomCard.swift in Sources */,
 				090D9D0124EFFBE600FD9F90 /* ContentView.swift in Sources */,
+				090D9D1424EFFD3800FD9F90 /* Header.swift in Sources */,
 				090D9CFF24EFFBE600FD9F90 /* HardwarePerformance_dribbbleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +337,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				090D9D1824EFFDF900FD9F90 /* UserInfo.swift in Sources */,
+				090D9D1B24EFFFAC00FD9F90 /* UserWork.swift in Sources */,
+				090D9D1E24F000C600FD9F90 /* BottomCard.swift in Sources */,
 				090D9D0224EFFBE600FD9F90 /* ContentView.swift in Sources */,
+				090D9D1524EFFD3800FD9F90 /* Header.swift in Sources */,
 				090D9D0024EFFBE600FD9F90 /* HardwarePerformance_dribbbleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
